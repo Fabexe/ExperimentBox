@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About Me - Social Links</title>
+    <title>Fab.exe_ - About Me</title>
     <style>
         @font-face {
             font-family: 'Airstrikeplat';
@@ -28,7 +28,13 @@
             font-size: 60px;
             margin-bottom: 40px;
             color: #ffffff;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .separator {
+            font-family: 'Airstrike', Arial, sans-serif;
+            font-size: 60px;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }
         .links {
             display: flex;
@@ -118,6 +124,26 @@
         .bluesky:hover {
             background: #8ebfff;
         }
+        .website {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            text-decoration: none;
+            color: #222;
+            font-size: 70px;
+            padding: 10px 20px;
+            border-radius: 8px;
+            background: #a37a2f;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            transition: background 0.2s;
+            width: 80vw;
+            max-width: 80vw;
+            box-sizing: border-box;
+            justify-content: center;
+        }
+        .website:hover {
+            background: #ac9264;
+        }
         .icon {
             width: 60px;
             height: 60px;
@@ -127,7 +153,7 @@
 </head>
 <body>
     <div class="title">  
-        <h1>Connect with Me</h1>
+        <h1>Mes réseaux / My networks</h1>
     </div>
     <div class="links">
         <a class="discord" href="https://discord.gg/r454PE3qhU" target="_blank" rel="noopener">
@@ -145,6 +171,26 @@
         <a class="bluesky" href="https://bsky.app/profile/fabexe.bsky.social" target="_blank" rel="noopener">
             <img class="icon" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/bluesky.svg" alt="Bluesky">
             Bluesky
+        </a>
+    </div>
+    <div class="separator">
+        <h1>---------------------</h1>
+    </div>
+    <div class="title">  
+        <h1>Autres projets / Other projects</h1>
+    </div>
+    <div class="links">
+        <a class="discord" href="https://discord.gg/YEXpx5mb8h" target="_blank" rel="noopener">
+            <img class="icon" src="./splatapp_logo.png" alt="Discord">
+            Splatapp - Discord
+        </a>
+        <a class="website" href="https://app.splatapp.ink" target="_blank" rel="noopener">
+            <img class="icon" src="./splatapp_logo.png" alt="Splatapp">
+            Splatapp - website
+        </a>
+        <a class="discord" href="https://youtube.com/@ExperimentBox" target="_blank" rel="noopener">
+            <img class="icon" src="./splatland_logo.jpg" alt="YouTube">
+            Splat Land FR - Discord
         </a>
     </div>
 </body>
