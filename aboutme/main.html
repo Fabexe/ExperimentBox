@@ -4,11 +4,30 @@
     <meta charset="UTF-8">
     <title>About Me - Social Links</title>
     <style>
+        @font-face {
+            font-family: 'Airstrikeplat';
+            src: url('airstrikeplat.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Airstrike';
+            src: url('airstrike.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
         body {
-            font-family: Arial, sans-serif;
-            background: url('https://www.transparenttextures.com/patterns/white-diamond.png');
+            font-family: 'Airstrike', Arial, sans-serif;
+            background: url('https://fabexe.github.io/ExperimentBox/aboutme/background_landscape.jpg');
             text-align: center;
             padding-top: 50px;
+        }
+        .title {
+            font-family: 'Airstrikeplat', Arial, sans-serif;
+            font-size: 20px;
+            margin-bottom: 40px;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
         }
         .links {
             display: flex;
@@ -80,7 +99,7 @@
             transition: background 0.2s;
         }
         .bluesky:hover {
-            background: #9bc3f8;
+            background: #8ebfff;
         }
         .icon {
             width: 24px;
@@ -90,7 +109,9 @@
     </style>
 </head>
 <body>
-    <h1>Connect with Me</h1>
+    <div class="title">  
+        <h1>Connect with Me</h1>
+    </div>
     <div class="links">
         <a class="discord" href="https://discord.gg/r454PE3qhU" target="_blank" rel="noopener">
             <img class="icon" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg" alt="Discord">
